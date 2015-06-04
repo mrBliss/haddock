@@ -562,6 +562,7 @@ instance Monad ErrMsgGhc where
 type instance PostRn DocName NameSet  = PlaceHolder
 type instance PostRn DocName Fixity   = PlaceHolder
 type instance PostRn DocName Bool     = PlaceHolder
+type instance PostRn DocName Name     = PlaceHolder
 type instance PostRn DocName [Name]   = PlaceHolder
 
 type instance PostTc DocName Kind     = PlaceHolder
